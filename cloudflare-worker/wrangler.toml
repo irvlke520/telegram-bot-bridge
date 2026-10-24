@@ -1,0 +1,8 @@
+name = "telegram-bot"
+main = "worker.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+LLM_BASE_URL = "https://api.deepseek.com"
+LLM_MODEL = "deepseek-chat"
+ALLOWED_CHAT_IDS = "123456789"

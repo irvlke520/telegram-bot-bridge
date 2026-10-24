@@ -1,0 +1,15 @@
+# 敏感文件（绝不提交）
+telegram_token.txt
+llm_config.txt
+.webhook_secret
+*.secret
+*.token
+
+# 运行产物
+telegram_messages.log
+telegram_usage.log
+runs/
+*.pyc
+__pycache__/
+.playwright-cli/
+node_modules/
